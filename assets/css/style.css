@@ -19,11 +19,17 @@
 }
 
 .heading {
-	position: absolute;
-	
+	float: left;	
 }
 
 .sidebar {
+	width: 270px;
+	float: right;
+}
+
+.sidebar-item {
+	float: left;
+	width: 33.3%
 }
 
 .profile-img {
@@ -31,6 +37,31 @@
 }
 
 .social-network {
-	float: right;
+	float: left;
 	width: 33.3%;
+}
+
+.copyright-background {
+	position: fixed;
+	width: 100%;
+	height: 75px;
+	margin: 0 auto 0 auto;
+	bottom: 0;
+	background-color: #666666;
+	z-index: 50;
+	border-top: 10px solid #4aaaa5;
+}
+
+h1 {
+	text-align: left;
+}
+
+footer {
+	color: white;
+	z-index: 100;
+	padding-top: 25px;
+}
+
+p {
+	text-align: left;
 }
